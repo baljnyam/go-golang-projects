@@ -1,10 +1,10 @@
-package main
+// package main
 
-import (
-	"fmt"
-	"math"
-	// "runtime"
-)
+// import (
+// 	"fmt"
+// 	"math"
+// 	// "runtime"
+// )
 
 // for
 //while
@@ -26,17 +26,17 @@ import (
 // 	return lim
 // }
 
-func pow(x, n, lim float64) float64 {
-	if v := math.Pow(x, n); v < lim {
-		return v
-	} else {
-		fmt.Printf("%g >= %g\n", v, lim)
-	}
-	// can't use v here, though
-	return lim
-}
+// func pow(x, n, lim float64) float64 {
+// 	if v := math.Pow(x, n); v < lim {
+// 		return v
+// 	} else {
+// 		fmt.Printf("%g >= %g\n", v, lim)
+// 	}
+// 	// can't use v here, though
+// 	return lim
+// }
 
-func main() {
+// func main() {
 	// sum := 0
 	// for i := 0; i < 10; i++ {
 	// 	sum += i
@@ -99,12 +99,12 @@ func main() {
 	// defer fmt.Println("world")
 
 	// fmt.Println("hello")
-	fmt.Println("counting")
+// 	fmt.Println("counting")
 
-	for i := 0; i < 10; i++ {
-		defer fmt.Println(i)
-	}
+// 	for i := 0; i < 10; i++ {
+// 		defer fmt.Println(i)
+// 	}
 
-	fmt.Println("done")
+// 	fmt.Println("done")
 
-}
+// }
